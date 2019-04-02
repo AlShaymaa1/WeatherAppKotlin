@@ -1,4 +1,4 @@
-package com.example.weatherappkotlin
+package com.weatherappkotlin
 
 import org.junit.Test
 

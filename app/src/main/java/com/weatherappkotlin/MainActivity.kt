@@ -1,4 +1,4 @@
-package com.example.weatherappkotlin
+package com.weatherappkotlin
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
