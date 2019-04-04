@@ -35,6 +35,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     api project(':entities')
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //viewmodelproviders dependency
+    api'android.arch.lifecycle:extensions:1.1.1'
     testImplementation 'android.arch.core:core-testing:1.1.1', {
         exclude group: 'com.android.support', module: 'support-compat'
         exclude group: 'com.android.support', module: 'support-annotations'
